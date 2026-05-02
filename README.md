@@ -31,18 +31,18 @@ The curriculum is structured into eight progressive modules, taking you from the
 
 ---
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 
 This course heavily relies on modern AI development frameworks and tools. Ensure your development environment is set up to support the following:
 
 *   **Language:** Python 3.10+
 *   **Frameworks:** LangChain, LangGraph (for multi-agent routing)
 *   **APIs & Models:** OpenAI API, Anthropic API, or local execution via Ollama
-*   **Environment:** Jupyter Notebooks, VS Code
+*   **Environment:** Jupyter Notebooks, PyCharm/VS Code
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To access the course materials and run the local assignments, follow these steps:
 
