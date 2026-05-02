@@ -1,0 +1,8 @@
+tokenizers
+tiktoken
+torch
+transformers
+tokenizers
+huggingface_hub
+langchain
+langchain-ollama
