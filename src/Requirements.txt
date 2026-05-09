@@ -7,3 +7,7 @@ huggingface_hub
 langchain
 langchain-ollama
 langchain-openai
+langchain-community
+pypdf
+chroma
+langchain-chroma
