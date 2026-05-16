@@ -1,9 +1,7 @@
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_ollama import OllamaLLM
 
-model = OllamaLLM(  # base_url="192.168.1.114:12026",
-    model="gemma4",
-    temperature=0)
+model = OllamaLLM(base_url="192.168.1.114:12026", model="gemma4", temperature=0)
 
 messages = [
     SystemMessage(

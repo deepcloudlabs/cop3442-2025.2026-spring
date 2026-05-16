@@ -11,3 +11,4 @@ langchain-community
 pypdf
 chroma
 langchain-chroma
+langchain-core

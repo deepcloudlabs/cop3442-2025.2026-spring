@@ -1,10 +1,11 @@
+# Prompt assembly with runtime variables
+# pip install -U langchain langchain_ollama
+
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-model = OllamaLLM(base_url="192.168.1.114:22026",
-                  model="gemma4",
-                  temperature=0)
+model = OllamaLLM(base_url="192.168.1.114:22026", model="gemma4", temperature=0)
 
 prompt_template = ChatPromptTemplate.from_messages([
     ("system", """
