@@ -2,7 +2,7 @@ from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-model = OllamaLLM(#base_url="192.168.1.114:12026",
+model = OllamaLLM(base_url="192.168.1.114:22026",
                   model="gemma4",
                   temperature=0)
 
@@ -29,7 +29,8 @@ result = chain.invoke({
     "audience": "second-year AI Engineering Students",
     "course_level": "introduction",
     "use_examples": "Yes",
-    "topic": "K-Means Clustering",
+    #"topic": "K-Means Clustering",
+    "topic": "Silhouette score",
 })
 
 print(result)
