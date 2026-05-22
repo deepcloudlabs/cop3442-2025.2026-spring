@@ -219,3 +219,4 @@ __marimo__/
 *.sqlite3
 *.bin
 /src/.idea
+/.idea
