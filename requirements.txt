@@ -1,0 +1,14 @@
+tokenizers
+tiktoken
+torch
+transformers
+tokenizers<=0.23.0
+huggingface_hub
+langchain
+langchain-ollama
+langchain-openai
+langchain-community
+pypdf
+chroma
+langchain-chroma
+langchain-core
